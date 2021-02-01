@@ -8,17 +8,16 @@ a {
 
 body {
     color: #40514e;
-    margin: 0;
-    /* sets all four margin sides to 0 */
-    text-align: center;
     font-family: 'Merriweather', serif;
+    margin: 0; /* sets all four margin sides to 0 */
+    text-align: center;
 }
 
 h1 {
     color: #34626c;
+    font-family: 'Libre Baskerville', serif;
     font-size: 5.625rem;
     margin: 50px auto 0 auto;
-    font-family: 'Libre Baskerville', serif;
 }
 
 h2 {
@@ -36,13 +35,13 @@ h3 {
 
 hr {
     background-color: inherit;
+    border-color: #c6b497;
     border-style: none; /* sets all border styles to none*/
     border-top-style: dotted; /* sets just the top boder to dotted */
-    height: 0;
-    border-color: #c6b497;
     border-width: 5px;
-    width: 5%;
+    height: 0;
     margin: 100px auto;
+    width: 5%;
 }
 
 p {
@@ -51,9 +50,9 @@ p {
 
 /*************CLASS TAGS*************/
 .bottom-cloud {
-    position: absolute;
-    left: 250px;
     bottom: 300px;
+    left: 250px;
+    position: absolute;
 }
 
 .top-cloud {
@@ -64,16 +63,16 @@ p {
 
 .code-img {
     float: left;
+    height: auto;
     margin-right: 30px;
     width: 20%;
-    height: auto;
 }
 
 .cpu-img {
     float: right;
+    height: auto;
     margin-left: 30px;
     width: 20%;
-    height: auto;
 }
 
 .skill-row {
@@ -151,8 +150,8 @@ p {
 
 .top-container {
     background-color: #e9ede8;
-    position: relative;
     padding-top: 100px;
+    position: relative;
 }
 
 .middle-container {
